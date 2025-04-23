@@ -10,8 +10,6 @@ function generateRandomEMails(number) {
   return randomEmailsGenerated;
 }
 
-let randomEmails = [];
-
-randomEmails.push(generateRandomEMails(10));
+let randomEmails = generateRandomEMails(10);
 
 console.log(randomEmails);
